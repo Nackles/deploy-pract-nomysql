@@ -13,6 +13,9 @@ app.get("/", function(req, res){
     res.sendFile(path.join(__dirname, "mainpage.html"));
 })
 
+// Added a comment
+
+
 // Routes
 app.get("/another-route", function(req, res) {
     res.sendFile(path.join(__dirname, "anotherroute.html"));

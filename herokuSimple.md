@@ -21,3 +21,11 @@ YA CAN'T DO CERTAIN THINGS WITH HEROKU ON AN UNSECURED NETWORK LIKE THE ONE AT S
 
 ## That's it!!!
 Go to your website!!
+
+## Final Note:
+What is the difference between...
+git push origin master
+and...
+git push heroku master
+# Answer
+One word that changes which service you upload to! Master is the branch name in both cases, git calls itself the origin, heroku calls itself itself. Origin master means "master branch on Github", heroku master means "master branch on Heroku".
